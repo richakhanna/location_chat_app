@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Sputnik</string>
+  <string name="app_name">Sputnik</string>
+
+  <string name="roboto_regular">sans-serif</string>
+  <string name="roboto_light">sans-serif-light</string>
+  <string name="roboto_medium">sans-serif-medium</string>
+  <string name="roboto_bold">OpenSans-Bold</string>
 </resources>

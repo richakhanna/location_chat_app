@@ -15,6 +15,7 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 import com.richdroid.sputnik.R;
 import com.richdroid.sputnik.app.Config;
+import com.richdroid.sputnik.chat.ChatActivity;
 import com.richdroid.sputnik.gcm.GcmIntentService;
 
 public class MainActivity extends AppCompatActivity {
@@ -58,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
         if (checkPlayServices()) {
             registerGCM();
         }
+        startActivity(new Intent(this, ChatActivity.class));
     }
 
     // starting the service to register with GCM

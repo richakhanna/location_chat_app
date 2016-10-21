@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+  <color name="colorPrimary">#3F51B5</color>
+  <color name="colorPrimaryDark">#303F9F</color>
+  <color name="colorAccent">#FF4081</color>
+
+
+  <color name="text_color_self">#DDFFFFFF</color>
+  <color name="text_color_time">#AAFFFFFF</color>
+  <color name="chat_box_background">#039BE5</color>
+
+  <color name="chat_box_random1">#F44336</color>
+  <color name="chat_box_random2">#9C27B0</color>
+  <color name="chat_box_random3">#3F51B5</color>
+  <color name="chat_box_random4">#673AB7</color>
+  <color name="chat_box_random5">#00897B</color>
+  <color name="chat_box_random6">#0097A7</color>
+  <color name="chat_box_random7">#43A047</color>
+  <color name="chat_box_random8">#827717</color>
+  <color name="chat_box_random9">#EF6C00</color>
+  <color name="chat_box_random10">#FF5722</color>
 </resources>

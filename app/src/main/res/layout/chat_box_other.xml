@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="50dp">
+
+  <RelativeLayout
+      android:id="@+id/background"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:padding="5dp"
+      android:background="@color/chat_box_background"
+      android:layout_alignParentLeft="true"
+      tools:showIn="@layout/activity_chat">
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:fontFamily="@string/roboto_bold"
+        tools:text="Richa"
+        android:textColor="@color/text_color_self"/>
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8dp"
+        android:layout_alignBaseline="@id/name"
+        android:layout_marginLeft="4dp"
+        android:layout_toRightOf="@id/name"
+        android:fontFamily="@string/roboto_bold"
+        android:text="2min ago"
+        android:textColor="@color/text_color_time"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_below="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:fontFamily="@string/roboto_light"
+        tools:text="Mujhe ni discuss karna tum logon se"
+        android:textColor="@color/text_color_self"/>
+  </RelativeLayout>
+</RelativeLayout>
